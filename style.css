@@ -1,0 +1,176 @@
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    border: 1px solid black;
+    box-shadow: 5px 5px 10px black;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 8px;
+  }
+  
+  input[type="text"] {
+    width: 70%;
+    padding: 8px;
+    margin-bottom: 12px;
+    background-color: #e3e3e3;
+  }
+  
+  button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+}
+
+button[type="submit"] {
+    padding: 10px 20px;
+    background-color: #007bff; /* Blue button color */
+    color: #fff; /* White text color */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Question styles */
+.question {
+    margin-bottom: 20px;
+}
+
+.question p {
+    font-weight: bold;
+}
+
+.question label {
+    margin-left: 10px;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #343a40; /* Dark gray navbar */
+}
+
+.navbar-brand {
+    color: #fff; /* White brand text color */
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: rgb(10, 10, 10); /* White link text color */
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+}
+
+/* styles.css */
+
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f8f9fa; /* Light gray background */
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    margin-top: 40px;
+}
+
+/* Navbar styles */
+.navbar {
+    background-color: #343a40; /* Dark gray navbar */
+}
+
+.navbar-brand {
+    color: #fff; /* White brand text color */
+    font-weight: bold;
+}
+
+.navbar-nav .nav-link {
+    color: #fff; /* White link text color */
+    margin-right: 10px;
+}
+
+.navbar-nav .nav-link.active {
+    font-weight: bold;
+}
+
+/* Student Details styles */
+#studentDetails {
+    margin-top: 40px;
+}
+
+/* Quiz Details styles */
+#quizDetails {
+    margin-top: 40px;
+}
+
+/* Answers styles */
+#answers {
+    margin-top: 40px;
+}
+
+/* Correct Answers styles */
+#correctAnswers {
+    margin-top: 40px;
+}
+
+/* Total Marks styles */
+#totalMarks {
+    margin-top: 40px;
+}
